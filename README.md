@@ -73,7 +73,7 @@ La carpeta `src/` está organizada de la siguiente forma:
 
     npm start --Inicia la aplicación en modo desarrollo. Abre http://localhost:3000 para verla en el navegador.
     npm test --Ejecuta los test de la aplicación
-    npm run build --Crea una version optimizada para producción en la carpeta `build/`.
+    npm run build --Crea una version optimizada para producción en la carpeta `dist/`.
     serve -s buils --(requiere instalar serve o udar npx serve -s build) Inicia un servidor estático para servir los archivos de producción.
 
 ---

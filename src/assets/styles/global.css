@@ -1,0 +1,24 @@
+/* Importa estilos base */
+@import './base/reset.css';
+@import './base/typography.css';
+
+/* Importa estilos de layout */
+@import './layout/grid.css';
+@import './layout/flex.css';
+
+/* Importa estilos de componentes */
+@import './components/Button.css';
+@import './components/Loader.css';
+@import './components/Alert.css';
+
+/* Importa temas */
+@import './themes/light.css';
+@import './themes/dark.css';
+
+/* Estilos globales adicionales */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
